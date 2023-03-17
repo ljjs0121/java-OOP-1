@@ -6,9 +6,9 @@ public class Demo4 {
 		// 아래 두 수의 값을 서로 교환하시오.
 		int x = 20;
 		int y = 30;
-		int tmp;
+		int tmp = x;
 		
-		tmp = x;
+		// tmp = x;
 		x = y;
 		y = tmp;
 		
