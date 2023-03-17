@@ -32,7 +32,7 @@ public class SwitchDemo1 {
 		switch (grade) {
 		case "골드" :
 			depositRate = 0.05;
-			break;
+			break;	// 조건이 true일 때 빠져나간다. 
 		case "실버" :
 			depositRate = 0.02;
 			break;
