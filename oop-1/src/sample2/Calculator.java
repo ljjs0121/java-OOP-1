@@ -8,16 +8,39 @@ package sample2;
 public class Calculator {
 
 	/**
-	 * 정수 2개를 전닯받아서 덧셈을 수행하고, 그 결과를 반환한다.
+	 * 정수 2개를 전달받아서 덧셈을 수행하고, 그 결과를 반환한다.
 	 * @param num1 첫번째 정수
 	 * @param num2 두번째 정수
 	 * @return 덧셈결과
 	 */
 	int plus(int num1, int num2) {
+		System.out.println("int, int");
 		int x = num1 + num2;
 		return x;
 	}
+	int plus(int num1, int num2, int num3) {
+		System.out.println("int, int, int");
+		int x = num1 + num2 + num3;
+		return x;
+	}
 	
+	double plus(double num1, double num2) {
+		System.out.println("double, double");
+		double x = num1 + num2;
+		return x;
+	}
+
+	double plus(double num1, double num2, double num3) {
+		System.out.println("double, double, double");
+		double x = num1 + num2 + num3;
+		return x;
+	}
+	
+	double plus(int num1, double num2) {
+		System.out.println("int, double");
+		double x = num1 + num2;
+		return x;
+	}
 	/**
 	 * 정수 2개를 전달받아서 뺄셈을 수행하고, 그 결과를 반환한다.
 	 * @param num1 첫번째 정수
