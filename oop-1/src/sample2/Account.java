@@ -5,7 +5,7 @@ package sample2;
  *
  */
 public class Account {
-	
+	// private 는 private 사용한 클래스 안에서만 사용가능하다
 	long balance;
 	int password;
 	double depositInterestRate;
