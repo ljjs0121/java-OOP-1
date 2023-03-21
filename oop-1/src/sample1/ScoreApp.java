@@ -1,7 +1,5 @@
 package sample1;
 
-import java.security.SecurityPermission;
-
 import util.KeyboardReader;
 
 public class ScoreApp {
