@@ -32,12 +32,12 @@ public class Employee {
 	 * @param 급여
 	 */
 	Employee(String id, String name, String department, int salary) {
-		System.out.println("아이디, 이름, 부서, 급여 정보를 전달받아서 초기화 작업을 수행하는 생성자 메소드가 실행됨");
+		this(id, name, department, salary, 0.0);
 		// this. 는 멤버변수 id 를 가르킨다.
-		this.id = id;
-		this.name = name;
-		this.department = department;
-		this.salary = salary;
+//		this.id = id;
+//		this.name = name;
+//		this.department = department;
+//		this.salary = salary;
 	}
 	
 	/**
@@ -49,12 +49,12 @@ public class Employee {
 	 * @param 커미션비율
 	 */
 	Employee(String id, String name, String department, int salary, double commissionPct) {
-		System.out.println("아이디, 이름, 부서, 급여, 커미션비율 정보를 전달받아서 초기화 작업을 수행하는 생성자 메소드가 실행됨");
-		this.id = id;
-		this.name = name;
-		this.department = department;
-		this.salary = salary;
-		this.commissionPct = commissionPct;
+		this(id, name, null, null, department, salary, commissionPct);
+//		this.id = id;
+//		this.name = name;
+//		this.department = department;
+//		this.salary = salary;
+//		this.commissionPct = commissionPct;
 	}
 	
 	/**
