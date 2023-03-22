@@ -17,17 +17,90 @@ public class Employee {
 	// 기본 생성자(Dfault Constructor) 메소드
 	// 기본 생성자는 매개변수가 하나도 없는 생성자 메소드다.
 	// 기본 생성자 메소드는 컴파일러가 자동으로 추가한다.(단, 생성자가 정의되어 있으면 자동으로 추가하지 않는다.)
+	/**
+	 * 기본 생성자 메소드다.
+	 */
 	Employee() {
 		System.out.println("기본 생성자 메소드가 실행됨");
 	}
 	
+	/**
+	 * 신입직원 정보용 생성자 메소드다. 신입직원은 아이디, 이름, 부서, 급여 정보만 전달받아서 생성된 객체의 멤버변수에 저장한다.
+	 * @param 아이디
+	 * @param 이름
+	 * @param 부서
+	 * @param 급여
+	 */
 	Employee(String 아이디, String 이름, String 부서, int 급여) {
-		
+		System.out.println("아이디, 이름, 부서, 급여 정보를 전달받아서 초기화 작업을 수행하는 생성자 메소드가 실행됨");
+		id = 아이디;
+		name = 이름;
+		department = 부서;
+		salary = 급여;
 	}
+	
+	/**
+	 * 경력직원 정보용 생성자 메소드다. 경력직원은 아이디, 이름, 부서, 급여, 커미션비율 정보만 전달받아서 생성된 객체의 멤버변수에 저장한다.
+	 * @param 아이디
+	 * @param 이름
+	 * @param 부서
+	 * @param 급여
+	 * @param 커미션비율
+	 */
 	Employee(String 아이디, String 이름, String 부서, int 급여, double 커미션비율) {
-		
+		System.out.println("아이디, 이름, 부서, 급여, 커미션비율 정보를 전달받아서 초기화 작업을 수행하는 생성자 메소드가 실행됨");
+		id = 아이디;
+		name = 이름;
+		department = 부서;
+		salary = 급여;
+		commissionPct = 커미션비율;
 	}
+	
+	/**
+	 * 재직중인 직원 정보용 생성자 메소드다. 재직중인 직원은 아이디, 이름, 이메일, 전화번호, 부서, 급여, 커미션비율 정보만 전달받아서 생성된 객체의 멤버변수에 저장한다.
+	 * @param 아이디
+	 * @param 이름
+	 * @param 메일
+	 * @param 전화번호
+	 * @param 부서
+	 * @param 급여
+	 * @param 커미션비율
+	 */
 	Employee(String 아이디, String 이름, String 메일, String 전화번호, String 부서, int 급여, double 커미션비율) {
-		
+		System.out.println("아이디, 이름, 메일, 전화번호, 부서, 급여, 커미션비율 정보를 전달받아서 초기화 작업을 수행하는 생성자 메소드가 실행됨");
+		id = 아이디;
+		name = 이름;
+		email = 메일;
+		tel = 전화번호;
+		department = 부서;
+		salary = 급여;
+		commissionPct = 커미션비율;
 	}
+	
+	// 멤버메소드(인서턴스 메소드) 정의하기
+	/**
+	 * 직원 상세 정보를 출력하는 멤버메소드다.
+	 */
+	void displayEmployeeInfo() {
+		System.out.println("--- 직원 상세 정보 ---");
+		System.out.println("아이디: " + id);
+		System.out.println("이름: " + name);
+		System.out.println("이메일: " + email);
+		System.out.println("전화번호: " + tel);
+		System.out.println("소속부서: " + department);
+		System.out.println("급여: " + salary);
+		System.out.println("커미션비율: " + commissionPct);
+		System.out.println();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
