@@ -5,7 +5,7 @@ package sample3;
  *
  */
 public class Employee {
-	// 신입
+	
 	String id;				// 필수입력값
 	String name;			// 필수입력값
 	String email;			
@@ -31,12 +31,13 @@ public class Employee {
 	 * @param 부서
 	 * @param 급여
 	 */
-	Employee(String 아이디, String 이름, String 부서, int 급여) {
+	Employee(String id, String name, String department, int salary) {
 		System.out.println("아이디, 이름, 부서, 급여 정보를 전달받아서 초기화 작업을 수행하는 생성자 메소드가 실행됨");
-		id = 아이디;
-		name = 이름;
-		department = 부서;
-		salary = 급여;
+		// this. 는 멤버변수 id 를 가르킨다.
+		this.id = id;
+		this.name = name;
+		this.department = department;
+		this.salary = salary;
 	}
 	
 	/**
@@ -47,13 +48,13 @@ public class Employee {
 	 * @param 급여
 	 * @param 커미션비율
 	 */
-	Employee(String 아이디, String 이름, String 부서, int 급여, double 커미션비율) {
+	Employee(String id, String name, String department, int salary, double commissionPct) {
 		System.out.println("아이디, 이름, 부서, 급여, 커미션비율 정보를 전달받아서 초기화 작업을 수행하는 생성자 메소드가 실행됨");
-		id = 아이디;
-		name = 이름;
-		department = 부서;
-		salary = 급여;
-		commissionPct = 커미션비율;
+		this.id = id;
+		this.name = name;
+		this.department = department;
+		this.salary = salary;
+		this.commissionPct = commissionPct;
 	}
 	
 	/**
@@ -66,15 +67,16 @@ public class Employee {
 	 * @param 급여
 	 * @param 커미션비율
 	 */
-	Employee(String 아이디, String 이름, String 메일, String 전화번호, String 부서, int 급여, double 커미션비율) {
-		System.out.println("아이디, 이름, 메일, 전화번호, 부서, 급여, 커미션비율 정보를 전달받아서 초기화 작업을 수행하는 생성자 메소드가 실행됨");
-		id = 아이디;
-		name = 이름;
-		email = 메일;
-		tel = 전화번호;
-		department = 부서;
-		salary = 급여;
-		commissionPct = 커미션비율;
+	Employee(String id, String name, String email, String tel, String department, int salary, double commissionPct) {
+		System.out.println("아이디, 이름, 이메일, 전화번호, 부서, 급여, 커미션비율 정보를 전달받아서 초기화 작업을 수행하는 생성자 메소드가 실행됨");
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		this.tel = tel;
+		this.department = department;
+		this.salary = salary;
+		this.commissionPct = commissionPct;
+		
 	}
 	
 	// 멤버메소드(인서턴스 메소드) 정의하기
