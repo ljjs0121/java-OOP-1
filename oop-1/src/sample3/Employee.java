@@ -94,15 +94,4 @@ public class Employee {
 		System.out.println("커미션비율: " + commissionPct);
 		System.out.println();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
