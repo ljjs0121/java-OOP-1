@@ -1,4 +1,4 @@
-package sample4;
+package sample4_static;
 
 /*
  *  클래스 메소드 예제

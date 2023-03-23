@@ -1,4 +1,4 @@
-package sample1;
+package sample1_class;
 
 public class SubjectApp {
 	public static void main(String[] args) {

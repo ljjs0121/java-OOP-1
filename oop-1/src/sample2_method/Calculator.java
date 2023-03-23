@@ -1,4 +1,4 @@
-package sample2;
+package sample2_method;
 // /** + enter -> 설명글 작성법 / 자바 도큐먼트 주석이라 한다.
 /**
  * 사칙연산 기능을 제공하는 클래스다.

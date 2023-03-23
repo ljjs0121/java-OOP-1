@@ -1,4 +1,4 @@
-package sample4;
+package sample4_static;
 
 public class CircleApp {
 

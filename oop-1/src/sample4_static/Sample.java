@@ -1,4 +1,4 @@
-package sample4;
+package sample4_static;
 // 클래스변수에 대한 예제
 public class Sample {
 	

@@ -1,4 +1,4 @@
-package sample1;
+package sample1_class;
 
 import util.KeyboardReader;
 

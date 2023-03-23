@@ -1,4 +1,4 @@
-package sample2;
+package sample2_method;
 
 public class CalculatorApp {
 	

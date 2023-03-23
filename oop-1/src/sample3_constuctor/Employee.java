@@ -1,4 +1,4 @@
-package sample3;
+package sample3_constuctor;
 /**
  * 사원정보 클래스다.
  * @author Lee

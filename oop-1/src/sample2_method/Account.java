@@ -1,4 +1,4 @@
-package sample2;
+package sample2_method;
 /**
  * 입금 기능, 출금 기능, 비밀번호 변경 기능, 계좌정보 출력 기능을 제공하는 클래스다.
  * @author Lee

@@ -1,4 +1,4 @@
-package sample3;
+package sample3_constuctor;
 
 public class StudentScoreApp {
 
