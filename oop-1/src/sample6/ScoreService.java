@@ -3,7 +3,7 @@ package sample6;
 public class ScoreService {
 
 	// 성적정보를 10개 저장하는 배열객체를 생성하고, 멤버변수 score에 배열객체의 주소값을 대입한다.
-	private Score[] scores = new Score[10];
+	 Score[] scores = new Score[10];
 	
 	public ScoreService() {
 		scores[0] = new Score(10, "김은별", 80, 80, 80);
