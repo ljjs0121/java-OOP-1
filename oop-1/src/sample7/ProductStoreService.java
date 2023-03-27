@@ -142,8 +142,6 @@ public class ProductStoreService {
 	 * 구현내용 : 배열에서 상품번호에 해당하는 상품정보를 조회한다.
 	 * 			상품정보의 재고수량을 출고수량만큼 감소시킨다.
 	 * 			상품정보의 재고수량이 0이 되면 판매상태를 false로 설정한다.
-	 * 
-	 * 
 	 */
 	
 	public void exportProduct(int productNo, int amount) {
