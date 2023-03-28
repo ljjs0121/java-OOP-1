@@ -1,7 +1,7 @@
-## basic 요약
+# basic 요약
 
-### 시작
----
+## 시작하기
+
 ### JDK 설치
 [Oracle.JDK.downloads](https://www.oracle.com/kr/java/technologies/downloads/)
 
@@ -144,7 +144,7 @@ case 3:
 	}
 ```
 ---
-### 반복문
+## 반복문
 - while 문은 반복조건이 참(true)이면 중괄호 구간을 반복적으로 실행
 ---
 ### for문
@@ -178,7 +178,7 @@ for (int i = 0; 1 < 10; i++) {
   } // if 조건이 true인 부분만 빼고 실행된다.
 ```
 ---
-### 배열
+### 배열 
 - 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것
 - 배열의 요소마다 붙여진 일련번호가 있다. -> index
 
