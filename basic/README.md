@@ -130,3 +130,71 @@ if(int i = 2; i < 10; i++) {
 }
 ```
 
+### switch문
+- 사용빈도는 적지만 조건이 많다면 switch문이 로직을 보다 명료하게 보여줄 수 있다.
+```java
+System.out.println("switch(1)");
+switch(1){
+case 1:
+	System.out.println("one");
+case 2:
+	System.out.println("two");
+case 3:
+	System.out.println("three");
+	}
+```
+---
+### 반복문
+- while 문은 반복조건이 참(true)이면 중괄호 구간을 반복적으로 실행
+---
+### for문
+- for문은 특정한 횟수만큼 반복 실행을 하는 경우에 자주 사용된다. 
+- for문 형식
+`for(초기화; 종료조건; 반복실행) {반복적으로 실행될 구문}`
+```
+for (int i = 0; i < 10; i++) {
+	System.out.println("Coding Everybody" + i);
+}
+```
+---
+### 반복문의 제어 
+---
+### break
+- 반복작업을 중간에 중단시키고 싶을 때 사용한다.
+```
+for (int i = 0; 1 < 10; i++) {
+ if (i == 5)
+   break;            // if 조건의 참인 조건까지 반복
+ System.out.println("Coding Everybody" + i);
+```
+
+### continue
+- 조건의 참인 조건만 빼고 다음 수행문 수행한다.
+```java
+for (int i = 0; 1 < 10; i++) {
+  if (i == 5)
+    continue;           
+  System.out.println("Coding Everybody" + i);
+  } // if 조건이 true인 부분만 빼고 실행된다.
+```
+---
+### 배열
+- 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것
+- 배열의 요소마다 붙여진 일련번호가 있다. -> index
+
+#### 선언 및 생성
+
+- 선언 방법
+`타입[] 변수이름;` , `타입 변수이름[];`
+- 생성
+`int[] score = new int[5] ;` , `String[] sub = new String[10];`
+
+- 배열의 길이를 나타내는 `length`가 있다.
+- 활용 예
+```
+int[] arr = {20, 10, 30};
+ for (int i = 0; i < arr.length; i++) {
+   int[] value = arr[i];
+   System.out.println("["+i+"]번째 값 -> " + value);
+ }
+```
