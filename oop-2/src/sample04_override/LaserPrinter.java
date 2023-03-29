@@ -1,4 +1,4 @@
-package simple04_override;
+package sample04_override;
 // Printer와 상속관계
 public class LaserPrinter extends Printer{
 

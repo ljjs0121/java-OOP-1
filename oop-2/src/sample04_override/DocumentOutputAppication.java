@@ -1,4 +1,4 @@
-package simple04_override;
+package sample04_override;
 // 다형성
 public class DocumentOutputAppication {
 

@@ -1,4 +1,4 @@
-package simple04_override;
+package sample04_override;
 // override 후 실행 방법
 public class PrinterApp2 {
 

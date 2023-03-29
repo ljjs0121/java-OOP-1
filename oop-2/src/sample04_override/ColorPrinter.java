@@ -1,4 +1,4 @@
-package simple04_override;
+package sample04_override;
 
 public class ColorPrinter extends Printer {
 

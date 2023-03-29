@@ -1,4 +1,4 @@
-package simple04_override;
+package sample04_override;
 // override
 public class Printer {
 

@@ -1,4 +1,4 @@
-package simple04_override;
+package sample04_override;
 // ColorPrinter와 상속관계
 public class PhotoPrinter extends ColorPrinter {
 
