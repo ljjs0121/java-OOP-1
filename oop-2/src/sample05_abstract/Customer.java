@@ -1,5 +1,5 @@
 package sample05_abstract;
-
+// 추상화
 public class Customer {
 
 	private String name;
