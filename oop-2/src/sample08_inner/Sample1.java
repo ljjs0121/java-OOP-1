@@ -1,5 +1,5 @@
 package sample08_inner;
-/* 내부클래스에 대하여 */
+/* 인스턴스 내부 클래스에 대하여 */
 public class Sample1 {
 	
 	private int a = 100;
