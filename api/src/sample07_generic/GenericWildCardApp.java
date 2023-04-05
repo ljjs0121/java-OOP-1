@@ -64,16 +64,24 @@ public class GenericWildCardApp {
 //		test4(new GenericBox<SmartPhone>());
 		test4(new GenericBox<FeaturePhone>());
 	}
+	
+	// GenericBox객체의 타입파라미터가 무엇이든 상관없다.
 	public static void test1(GenericBox<?> box) {
 		
 	}
-	public static void test2(GenericBox<? extends Phone> box) { // Phone과 Phone의 자손까지 전달받는다.
+	
+	// GenericBox객체의 타입파라미터가 phone이거나 Phone의 하위타입인 것만 전달받을 수 있다.
+	public static void test2(GenericBox<? extends Phone> box) { 
 		
 	}
-	public static void test3(GenericBox<? extends Number> box) { // Number와 Number의 자손까지 전달받는다.
+	
+	// GenericBox객체의 타입파라미터가 Number이거나 Number의 하위타입인것만 전달받을 수 있다.
+	public static void test3(GenericBox<? extends Number> box) { 
 		
 	}
-	public static void test4(GenericBox<? super FeaturePhone> box) { // FeaturePhone과 FeaturePhone의 조상까지 전달받는다.
+	
+	// GenericBox객체의 타입파라미터가 FeaturePhone이거나 FeaturePhone의 상위타입인 것만 전달받을 수 있다.
+	public static void test4(GenericBox<? super FeaturePhone> box) { 
 		
 	}
 }
