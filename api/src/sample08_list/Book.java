@@ -2,7 +2,7 @@ package sample08_list;
 
 import java.util.Objects;
 // List 와 Set 재정의
-public class Book implements Comparable<Book>{
+public class Book implements Comparable<Book>{ // 정렬 구현 Comparable
 
 	private int no;
 	private String title;
